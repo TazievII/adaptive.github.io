@@ -1,0 +1,11 @@
+@import url(../__comment/__comment.css);
+
+.comments__container {
+    max-width: 1184px;
+    min-height: 283px;
+    margin: auto;
+    margin-top: 72px;
+    display: flex;
+    justify-content: space-between;
+    transition: 1s linear;
+}

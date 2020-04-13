@@ -1,0 +1,10 @@
+@import url(../__item/__item.css);
+
+.video__container {
+    max-width: 82%;
+    min-height: 323px;
+    margin: auto;
+    margin-top: 72px;
+    display: flex;
+    justify-content: space-between;
+}

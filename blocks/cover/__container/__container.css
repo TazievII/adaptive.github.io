@@ -1,0 +1,8 @@
+@import url(./__title/__title.css);
+@import url(./__subtitle/__subtitle.css);
+
+.cover__container {
+    min-height: 594px;
+    position: relative;
+    text-decoration-line: none;
+}

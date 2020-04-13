@@ -1,0 +1,45 @@
+.video__item_kamchatka {
+    background-image: linear-gradient( rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('./kamchatka.jpg');
+    background-size: cover;
+    /*width: 583px;*/
+}
+
+.video__item_kamchatka:hover {
+    animation: hover_kamchatka 1s linear forwards;
+}
+
+@keyframes hover_kamchatka {
+    0% {
+        background-image: linear-gradient( rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('./kamchatka.jpg');
+    }
+    10% {
+        background-image: linear-gradient( rgba(0, 0, 0, .32), rgba(0, 0, 0, .32)), url('./kamchatka.jpg');
+    }
+    20% {
+        background-image: linear-gradient( rgba(0, 0, 0, .34), rgba(0, 0, 0, .34)), url('./kamchatka.jpg');
+    }
+    30% {
+        background-image: linear-gradient( rgba(0, 0, 0, .36), rgba(0, 0, 0, .36)), url('./kamchatka.jpg');
+    }
+    40% {
+        background-image: linear-gradient( rgba(0, 0, 0, .38), rgba(0, 0, 0, .38)), url('./kamchatka.jpg');
+    }
+    50% {
+        background-image: linear-gradient( rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url('./kamchatka.jpg');
+    }
+    60% {
+        background-image: linear-gradient( rgba(0, 0, 0, .42), rgba(0, 0, 0, .42)), url('./kamchatka.jpg');
+    }
+    70% {
+        background-image: linear-gradient( rgba(0, 0, 0, .44), rgba(0, 0, 0, .44)), url('./kamchatka.jpg');
+    }
+    80% {
+        background-image: linear-gradient( rgba(0, 0, 0, .46), rgba(0, 0, 0, .46)), url('./kamchatka.jpg');
+    }
+    90% {
+        background-image: linear-gradient( rgba(0, 0, 0, .48), rgba(0, 0, 0, .48)), url('./kamchatka.jpg');
+    }
+    100% {
+        background-image: linear-gradient( rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('./kamchatka.jpg');
+    }
+}  

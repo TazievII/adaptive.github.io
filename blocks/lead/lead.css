@@ -1,0 +1,128 @@
+/* Стили для Lead */
+@import url(./__title/__title.css);
+@import url(./__subtitle/__subtitle.css);
+@import url(./__image-container/__image-container.css);
+@import url(./__group4/group4.css);
+@import url(./__caption/__caption.css);
+
+.lead {
+    max-width: 984px;
+    min-height: 950px;
+    margin: auto;
+    margin-top: 48px;
+}
+
+@media screen and (min-width: 1280px) {
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .lead {
+        max-width: 90%;
+        min-height: 955px;
+    }
+    .lead__image-container {
+        margin-top: 65px;
+    }
+    .lead__image {
+        max-width: 90%;
+        height: 554px;
+    }
+    .lead__group4 {
+        max-width: 95%;
+    }
+    .lead__caption {
+        margin-top: 16px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .lead {
+        max-width: 100%;
+        min-height: 821px;
+    }
+    .lead__image-container {
+        margin-top: 78px;
+        min-height: 420px;
+    }
+    .lead__group4 {
+        max-width: 95%;
+        margin-top: 96px;
+        margin-left: 32px;
+        height: 171px;
+    }
+    .lead__caption {
+        margin-left: 24px;
+        margin-top: 16px;
+    }
+    .lead__title {
+        font-size: 96px;
+        line-height: 93px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .lead {
+        max-width: 100%;
+        min-height: 412px;
+    }
+    .lead__title {
+        font-size: 40px;
+        line-height: 44px;
+    }
+    .lead__subtitle {
+        max-width: 85%;
+        margin-top: 8px;
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .lead__image-container {
+        margin-top: 31px;
+        max-width: 100%;
+        min-height: 211px;
+    }
+    .lead__group4 {
+        max-width: 95%;
+        height: 85px;
+        margin-top: 48px;
+        margin-left: 9px;
+    }
+    .lead__caption {
+        margin: auto;
+        margin-top: 8px;
+        max-width: 92%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+    .lead {
+        max-width: 100%;
+        min-height: 412px;
+    }
+    .lead__title {
+        font-size: 40px;
+        line-height: 44px;
+    }
+    .lead__subtitle {
+        max-width: 85%;
+        margin-top: 8px;
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .lead__image-container {
+        margin-top: 31px;
+        max-width: 100%;
+        min-height: 211px;
+    }
+    .lead__group4 {
+        max-width: 95%;
+        height: 85px;
+        margin-top: 48px;
+        margin-left: 9px;
+    }
+    .lead__caption {
+        margin: auto;
+        margin-top: 8px;
+        max-width: 92%;
+    }
+}

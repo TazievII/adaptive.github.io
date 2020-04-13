@@ -1,0 +1,95 @@
+@import url(./__container/__container.css);
+@import url(./__copyright/__copyrigth.css);
+
+.footer {
+    max-width: 1184px;
+    min-height: 23px;
+    margin: 160px auto 48px auto;
+    display: flex;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .footer {
+        max-width: 90.7%;
+    }
+    .footer__copyright {
+        align-self: flex-end;
+        line-height: 41px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .footer {
+        max-width: 94%;
+        margin-top: 102px;
+        align-items: center;
+    }
+    .footer__copyright {
+        flex-basis: 257px;
+        align-self: flex-end;
+        line-height: 41px;
+    }
+    .footer__link {
+        font-size: 16px;
+        line-height: 27px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .footer {
+        margin-top: 64px;
+        margin-left: 16px;
+        margin-bottom: 24px;
+        max-width: 75.2%;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .footer__container {
+        flex-direction: column;
+    }
+    .footer__copyright {
+        flex-basis: 21px;
+        align-self: flex-start;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .footer__link {
+        max-width: max-content;
+        margin-right: 0px;
+        margin-bottom: 32px;
+        font-size: 24px;
+        line-height: 41px;
+    }
+    .footer__link:last-of-type {
+        margin-bottom: 48px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+    .footer {
+        margin-top: 64px;
+        margin-bottom: 24px;
+        max-width: 88%;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .footer__container {
+        flex-direction: column;
+    }
+    .footer__copyright {
+        flex-basis: 21px;
+        align-self: flex-start;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .footer__link {
+        max-width: max-content;
+        margin-right: 0px;
+        margin-bottom: 32px;
+        font-size: 24px;
+        line-height: 41px;
+    }
+    .footer__link:last-of-type {
+        margin-bottom: 48px;
+    }
+}

@@ -1,0 +1,9 @@
+.lead__image-container {
+    position: relative;
+    margin-top: 78px;
+    transition: 1s linear;
+    min-height: 554px;
+    background-image: url(../kalegin-michail-179870-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,85 @@
+body {
+    background-color: #2a2c2f;
+    width: 100%;
+    font-family: Inter;
+}
+
+.page {
+    max-width: 1440px;
+    margin: auto;
+    font-family: Inter, Arial, sans-serif;
+}
+
+
+
+/* Стили заголовков секций */
+
+.content-title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 78px;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Стили подзаголовков секций */
+
+.content-subtitle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 640px;
+    margin: auto;
+    margin-top: 48px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .content-title {
+        max-width: 928px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .content-title {
+        max-width: 94%;
+        font-size: 42px;
+        line-height: 46px;
+    }
+    .content-subtitle {
+        max-width: 83%;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .content-title {
+        max-width: 91.5%;
+        font-size: 32px;
+        line-height: 35px;
+    }
+    .content-subtitle {
+        max-width: 85%;
+        font-size: 16px;
+        line-height: 23px;
+        margin-top: 16px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+    .content-title {
+        max-width: 90%;
+        font-size: 32px;
+        line-height: 35px;
+    }
+    .content-subtitle {
+        max-width: 85%;
+        font-size: 16px;
+        line-height: 23px;
+        margin-top: 16px;
+    }
+}

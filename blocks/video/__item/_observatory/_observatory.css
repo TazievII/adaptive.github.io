@@ -1,0 +1,44 @@
+.video__item_observatory {
+    background-image: linear-gradient( rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('./observatory.jpg');
+    background-size: cover;
+}
+
+.video__item_observatory:hover {
+    animation: hover_observatory 1s linear forwards;
+}
+
+@keyframes hover_observatory {
+    0% {
+        background-image: linear-gradient( rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('./observatory.jpg');
+    }
+    10% {
+        background-image: linear-gradient( rgba(0, 0, 0, .32), rgba(0, 0, 0, .32)), url('./observatory.jpg');
+    }
+    20% {
+        background-image: linear-gradient( rgba(0, 0, 0, .34), rgba(0, 0, 0, .34)), url('./observatory.jpg');
+    }
+    30% {
+        background-image: linear-gradient( rgba(0, 0, 0, .36), rgba(0, 0, 0, .36)), url('./observatory.jpg');
+    }
+    40% {
+        background-image: linear-gradient( rgba(0, 0, 0, .38), rgba(0, 0, 0, .38)), url('./observatory.jpg');
+    }
+    50% {
+        background-image: linear-gradient( rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url('./observatory.jpg');
+    }
+    60% {
+        background-image: linear-gradient( rgba(0, 0, 0, .42), rgba(0, 0, 0, .42)), url('./observatory.jpg');
+    }
+    70% {
+        background-image: linear-gradient( rgba(0, 0, 0, .44), rgba(0, 0, 0, .44)), url('./observatory.jpg');
+    }
+    80% {
+        background-image: linear-gradient( rgba(0, 0, 0, .46), rgba(0, 0, 0, .46)), url('./observatory.jpg');
+    }
+    90% {
+        background-image: linear-gradient( rgba(0, 0, 0, .48), rgba(0, 0, 0, .48)), url('./observatory.jpg');
+    }
+    100% {
+        background-image: linear-gradient( rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('./observatory.jpg');
+    }
+}  

@@ -1,0 +1,11 @@
+.intro__text_vciom {
+    display: flex;
+    margin-top: 35px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    flex-basis: 683px;
+    margin-bottom: 0;
+}

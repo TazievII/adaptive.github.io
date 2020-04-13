@@ -1,0 +1,5 @@
+@import url(../__link/__link.css);
+
+.footer__container {
+    display: flex;
+}

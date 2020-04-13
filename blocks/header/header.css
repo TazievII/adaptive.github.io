@@ -1,0 +1,89 @@
+/* Стили для header */
+@import url(./__logo/__logo.css);
+@import url(./__lang/__lang.css);
+@import url(./__lang/_active.css/_active.css);
+
+
+.header {
+    display: flex;
+    max-width: 1184px;
+    min-height: 52px;
+    margin: auto;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+    .page {
+        max-width: 100%;
+    }
+    .header {
+        max-width: 92.5%;
+    }
+    .header__logo {
+        margin-right: 72.5%;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .page {
+        max-width: 100%;
+    }
+    .header {
+        max-width: 90%;
+    }
+    .header__logo {
+        margin-right: 73%;
+    }    
+    .header__lang {
+        max-width: 24px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .page {
+        max-width: 100%;
+    }
+    .header {
+        max-width: 94%;
+    }
+    .header__logo {
+        margin-right: 64.4%;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .page {
+        max-width: 100%;
+    }
+    .header {
+        max-width: 92%;
+    }
+    .header__logo {
+        margin-right: 33%;
+        max-width: 142px;
+        min-height: 42px;
+        transition: 1s linear;
+    }
+    .header__lang {
+        font-size: 18px;
+        line-height: 52px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+    .page {
+        max-width: 100%;
+    }
+    .header {
+        max-width: 90%;
+        margin-top: 16px;
+    }
+    .header__logo {
+        margin-right: 27%;
+        height: 42px;
+    }
+    .header__lang {
+        font-size: 18px;
+    }
+}
